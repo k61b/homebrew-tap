@@ -8,7 +8,7 @@ class LogswiseCli < Formula
   def install
     bin.install "logswise-cli"
   end
-
+  
   test do
     system "#{bin}/logswise-cli", "--help"
   end
